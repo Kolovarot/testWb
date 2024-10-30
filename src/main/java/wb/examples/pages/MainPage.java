@@ -11,8 +11,11 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class MainPage extends AbstractWbPage {
     private static final Logger LOGGER = LoggerFactory.getLogger(MainPage.class);
+
+    //fixme переменный с модификаторами static final пишутся капсом через нижнее подчеркивание
     private static final SelenideElement geo = $x("//span[@data-wba-header-name=\"DLV_Adress\"]").as("ГЕО в шапке");
-    private static final SelenideElement saleOnWb = $x("//a[@data-wba-header-name=\"Seller\"]").as("Продавайте на Wildberries");
+    //fixme вот пример как надо, поправь остальное
+    private static final SelenideElement SALE_ON_WB = $x("//a[@data-wba-header-name=\"Seller\"]").as("Продавайте на Wildberries");
     private static final SelenideElement workAtWb = $x("//a[@data-wba-header-name=\"Job\"]").as("Работа на Wildberries");
     private static final SelenideElement logo = $x("//img[@alt=\"Wildberries\"]").as("Логотип ВБ в шапке");
     private static final SelenideElement menuBurger = $x("//button[@data-wba-header-name=\"Catalog\"]").as("Бургер Меню");
@@ -37,8 +40,8 @@ public class MainPage extends AbstractWbPage {
     }
 
     public void verifyPage() {
-        LOGGER.info(getPageName() + ": проверка важных элементов страницы");
-        Verify.verifyElements(visible, geo, saleOnWb, workAtWb, logo, menuBurger, searchField, address, login, basket, currency);
+        LOGGER.info(getPageName() + ": проверка основных элементов страницы");
+        Verify.verifyElements(visible, geo, SALE_ON_WB, workAtWb, logo, menuBurger, searchField, address, login, basket, currency);
     }
 
     @Override
