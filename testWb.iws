@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf79379a-5cbf-404c-9a31-ca0c9a6229f3" name="Changes" comment="Test push">
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/AbstractWbPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/AbstractWbPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BaseTest.java" beforeDir="false" />
+    <list default="true" id="bf79379a-5cbf-404c-9a31-ca0c9a6229f3" name="Changes" comment="Добавил класс CatalogPage">
+      <changelist_data name="urazgaliev.r" email="urazgaliev.r@mail.ru" date="1730996294000" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BasketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/MainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/TestBasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/BasketPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/BasketPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/BasketPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/AbstractWbPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/AbstractWbPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/AddToBasket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/BasketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/BasketPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestBasketPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestLoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestMainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/BasketPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/tests/BasketPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/tests/MainPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testWb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/testWb.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +202,7 @@
       </branch-storage>
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -291,53 +282,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.BasketPageTest.addProductAndComparasion.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginTest.authorization.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginTest.checkImportantElements.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageTest.testBigBannerMainPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageTest.testVerifyMainPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainTest.checkImportantElements.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestBasketPage.addProductAndComparasion.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestBasketPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestLoginPage.authorization.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestLoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMainPage.checkImportantElements.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMainPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.homePage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.wbTest.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rashid/Desktop/MyProject/testWb4&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LoginTest.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BasketPageTest.addProductAndComparasion.executor": "Run",
+    "JUnit.BasketPageTest.executor": "Run",
+    "JUnit.LoginTest.authorization.executor": "Run",
+    "JUnit.LoginTest.checkImportantElements.executor": "Debug",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.MainPageTest.executor": "Run",
+    "JUnit.MainPageTest.testBigBannerMainPage.executor": "Run",
+    "JUnit.MainPageTest.testVerifyMainPage.executor": "Run",
+    "JUnit.MainTest.checkImportantElements.executor": "Run",
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.TestBasketPage.addProductAndComparasion.executor": "Run",
+    "JUnit.TestBasketPage.executor": "Run",
+    "JUnit.TestLoginPage.authorization.executor": "Run",
+    "JUnit.TestLoginPage.executor": "Run",
+    "JUnit.TestMainPage.checkImportantElements.executor": "Run",
+    "JUnit.TestMainPage.executor": "Run",
+    "JUnit.homePage.executor": "Run",
+    "JUnit.wbTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Rashid/Desktop/qwe/testWb",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rashid\IdeaProjects\testWb\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasketPageTest.addProductAndComparasion">
+  <component name="RunManager" selected="JUnit.BasketPageTest">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -574,9 +565,33 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="5" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test push" />
+    <MESSAGE value="Добавил класс CatalogPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил класс CatalogPage" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>

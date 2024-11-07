@@ -35,7 +35,7 @@ public class CatalogPage extends AbstractWbPage{
     }
 
     public void addToBasket(){
-        LOGGER.info("Поисковые каталог. Добавление товара в корзину");
+        LOGGER.info("Поисковый каталог. Добавление товара в корзину");
         addCardBasket.click();
     }
 

@@ -2,7 +2,6 @@ package wb.examples.tests;
 
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Test;
-import wb.examples.pages.AbstractWbPage;
 import wb.examples.pages.BasketPage;
 import wb.examples.pages.CatalogPage;
 
@@ -18,7 +17,7 @@ public class BasketPageTest {
         catalogPage.addToBasket();
         BasketPage basketPage = new BasketPage();
         basketPage.goToBasket();
-        Selenide.sleep(1000);
+        Selenide.sleep(2000);
         basketPage.compareProducts(artKT, nameKT, priceKT);
         System.out.println();
     }
