@@ -12,7 +12,6 @@ import static com.codeborne.selenide.Selenide.$x;
 public class MainPage extends AbstractWbPage {
     private static final Logger LOGGER = LoggerFactory.getLogger(MainPage.class);
 
-    String namePage = "Главная страница сайта";
     private static final SelenideElement GEO = $x("//span[@data-wba-header-name=\"DLV_Adress\"]").as("ГЕО в шапке");
     private static final SelenideElement SALE_ON_WB = $x("//a[@data-wba-header-name=\"Seller\"]").as("Продавайте на Wildberries");
     private static final SelenideElement WORK_AT_WB = $x("//a[@data-wba-header-name=\"Job\"]").as("Работа на Wildberries");
