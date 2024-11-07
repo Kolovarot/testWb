@@ -17,7 +17,7 @@ public class BasketPage extends AbstractWbPage{
     private static final SelenideElement PRICE_CARD_BASKET = $x("//*[@class='accordion__list-item list-item j-b-basket-item'][1]//div[@data-link='{formatMoneyAnim priceSumWithWltDiscount}']").as("Цена товара со скидкой в Корзине");
     //Нужна хелпа в объяснении как вынести это в AbstractWbPage
     private static final SelenideElement BASKET = $x("//span[@class='navbar-pc__icon navbar-pc__icon--basket']").as("Корзина в хедере");
-    private static final SelenideElement DELIVERY_METHOD = $x("//h2[@data-link='class{merge: deliveryPoint toggle='hide-mobile'}']");
+    private static final SelenideElement DELIVERY_METHOD = $x("//h2[@data-link='class{merge: deliveryPoint toggle='hide-mobile'}']").as("Блок 'Способ доставки'");
 
     public BasketPage() {
         super("Корзина");

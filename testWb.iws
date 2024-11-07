@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf79379a-5cbf-404c-9a31-ca0c9a6229f3" name="Changes" comment="Добавил класс CatalogPage">
-      <changelist_data name="urazgaliev.r" email="urazgaliev.r@mail.ru" date="1730996294000" />
+    <list default="true" id="bf79379a-5cbf-404c-9a31-ca0c9a6229f3" name="Changes" comment="Добавил gitignore в проект">
       <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BasketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/BasketPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/BasketPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/AbstractWbPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/AbstractWbPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/BasketPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/tests/BasketPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/tests/MainPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testWb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/testWb.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -528,6 +521,31 @@
       <option name="presentableId" value="Default" />
       <updated>1725900970387</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавил класс CatalogPage и фикс пуша">
+      <option name="closed" value="true" />
+      <created>1731002442098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731002442098</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил класс CatalogPage и фикс пуша (удаление папок)">
+      <option name="closed" value="true" />
+      <created>1731002628277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731002628277</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил gitignore в проект">
+      <option name="closed" value="true" />
+      <created>1731003617522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731003617522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -591,7 +609,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test push" />
     <MESSAGE value="Добавил класс CatalogPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил класс CatalogPage" />
+    <MESSAGE value="Добавил класс CatalogPage и фикс пуша" />
+    <MESSAGE value="Добавил класс CatalogPage и фикс пуша (удаление папок)" />
+    <MESSAGE value="Добавил gitignore в проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил gitignore в проект" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>

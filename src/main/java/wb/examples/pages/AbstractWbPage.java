@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.$x;
 abstract public class AbstractWbPage {
     private final SelenideElement profileElement = $x("//a[@data-wba-header-name='LK']").as("Ссылка [Профиль] в шапке сайта");
     private final SelenideElement basket = $x("//span[@class='navbar-pc__icon navbar-pc__icon--basket']").as("Корзина в хедере");
-    private final SelenideElement buttonCookies = $x("//button[@class='cookies__btn btn-minor-md']");
+    private final SelenideElement buttonCookies = $x("//button[@class='cookies__btn btn-minor-md']").as("Плашка с куки");
 
     private final String pageName;
 

@@ -8,7 +8,7 @@ import wb.examples.pages.CatalogPage;
 public class BasketPageTest {
 
     @Test
-    public void addProductAndComparasion() {
+    public void addProductAndComparison() {
         CatalogPage catalogPage = CatalogPage.openPage();
         catalogPage.verifyPage();
         String nameKT = catalogPage.GetNameCardSearchCatalog();
@@ -19,6 +19,5 @@ public class BasketPageTest {
         basketPage.goToBasket();
         Selenide.sleep(2000);
         basketPage.compareProducts(artKT, nameKT, priceKT);
-        System.out.println();
     }
 }
