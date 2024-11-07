@@ -5,39 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf79379a-5cbf-404c-9a31-ca0c9a6229f3" name="Changes" comment="Test push">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/AbstractWbPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/AddToBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BasketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/TestBasketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/TestLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/TestMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wb/examples/util/Verify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/AbstractWbPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/AddToBasket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/BasketPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/MainPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestBasketPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestLoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestMainPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wb/examples/util/Verify.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-wb.examples.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/wb.examples.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/wb/examples/LoginTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testWb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testWb.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testWb.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/AbstractWbPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/AbstractWbPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/TestBasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/BasketPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wb/examples/tests/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wb/examples/tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/AbstractWbPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/AbstractWbPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/AddToBasket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/BasketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/BasketPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wb/examples/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestBasketPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wb/examples/tests/TestMainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testWb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/testWb.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,9 +295,14 @@
   &quot;keyToString&quot;: {
     &quot;Application.LoginTest.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.BasketPageTest.addProductAndComparasion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketPageTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.LoginTest.authorization.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.LoginTest.checkImportantElements.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageTest.testBigBannerMainPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageTest.testVerifyMainPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.checkImportantElements.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestBasketPage.addProductAndComparasion.executor&quot;: &quot;Run&quot;,
@@ -329,7 +319,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rashid/IdeaProjects/testWb&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rashid/Desktop/MyProject/testWb4&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -347,7 +337,7 @@
       <recent name="C:\Users\Rashid\IdeaProjects\testWb\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBasketPage">
+  <component name="RunManager" selected="JUnit.BasketPageTest.addProductAndComparasion">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -364,7 +354,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBasketPage" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="BasketPageTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="testWb" />
       <extension name="coverage">
         <pattern>
@@ -373,7 +363,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="wb.examples.tests" />
-      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.TestBasketPage" />
+      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.BasketPageTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -384,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBasketPage.addProductAndComparasion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketPageTest.addProductAndComparasion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testWb" />
       <extension name="coverage">
         <pattern>
@@ -393,7 +383,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="wb.examples.tests" />
-      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.TestBasketPage" />
+      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.BasketPageTest" />
       <option name="METHOD_NAME" value="addProductAndComparasion" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -405,7 +395,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLoginPage.authorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testWb" />
       <extension name="coverage">
         <pattern>
@@ -414,8 +404,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="wb.examples.tests" />
-      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.TestLoginPage" />
-      <option name="METHOD_NAME" value="authorization" />
+      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.MainPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.testBigBannerMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testWb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wb.examples.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wb.examples.tests" />
+      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.MainPageTest" />
+      <option name="METHOD_NAME" value="testBigBannerMainPage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -426,7 +436,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTest.testVerifyMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testWb" />
       <extension name="coverage">
         <pattern>
@@ -435,8 +445,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="wb.examples.tests" />
-      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.TestMainPage" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="wb.examples.tests.MainPageTest" />
+      <option name="METHOD_NAME" value="testVerifyMainPage" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -480,10 +491,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBasketPage.addProductAndComparasion" />
+        <item itemvalue="JUnit.BasketPageTest.addProductAndComparasion" />
+        <item itemvalue="JUnit.MainPageTest" />
+        <item itemvalue="JUnit.MainPageTest.testBigBannerMainPage" />
+        <item itemvalue="JUnit.MainPageTest.testVerifyMainPage" />
         <item itemvalue="JUnit.TestMainPage.checkImportantElements" />
-        <item itemvalue="JUnit.TestLoginPage.authorization" />
-        <item itemvalue="JUnit.TestMainPage" />
       </list>
     </recent_temporary>
   </component>

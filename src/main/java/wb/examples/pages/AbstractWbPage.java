@@ -8,7 +8,8 @@ import static com.codeborne.selenide.Selenide.$x;
 
 abstract public class AbstractWbPage {
     private final SelenideElement profileElement = $x("//a[@data-wba-header-name='LK']").as("Ссылка [Профиль] в шапке сайта");
-
+    private final SelenideElement basket = $x("//span[@class='navbar-pc__icon navbar-pc__icon--basket']").as("Корзина в хедере");
+    private final SelenideElement buttonCookies = $x("//button[@class='cookies__btn btn-minor-md']");
 
     private final String pageName;
 
@@ -26,6 +27,10 @@ abstract public class AbstractWbPage {
         return null;
     }
 
+    public void closeCookies(){
+        buttonCookies.click();
+    }
+
     public void refreshPage() {
         Selenide.refresh();
         waitFoPageLoad();
@@ -35,5 +40,10 @@ abstract public class AbstractWbPage {
         profileElement.shouldBe(visible);
     }
     abstract public void verifyPage();
+
+    public void goToBasket() {
+        basket.click();
+        //Описать общий переход через корзину (из хеедера)
+    }
 
 }

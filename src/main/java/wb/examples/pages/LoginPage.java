@@ -40,7 +40,7 @@ public class LoginPage extends AbstractWbPage{
         getCodeButton.click();
     }
     public void inputCode(String code){
-        LOGGER.info("Ввесит код: " + code);
+        LOGGER.info("Ввести код: " + code);
         inputFieldCode.click();
         inputFieldCode.val(code);
     }
