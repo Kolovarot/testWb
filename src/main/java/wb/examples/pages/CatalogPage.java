@@ -12,14 +12,15 @@ import static com.codeborne.selenide.Selenide.$x;
 public class CatalogPage extends AbstractWbPage {
     private static final Logger LOGGER = LoggerFactory.getLogger(CatalogPage.class);
 
-    private static final SelenideElement addCardBasket = $x("//article[1]//p[2]/a").as("Добавление товара в корзину");
-    private static final SelenideElement productCardNameCatalog = $x("//*[@class='product-card__name']").as("Получение названия товара из каталога поиска");
-    private static final SelenideElement articleCatalog = $x("//article[1]").as("Получение артикула товара из каталога поиска");
-    private static final SelenideElement priceCardCatalog = $x("//article[1]//span[@class='price__wrap']//ins").as("Получение цены товара из каталога поиска");
-    private static final SelenideElement recommendationForYou = $x("//a[@class='searching-results__suggest hide-mobile']").as("Кнопка 'Рекоммендации для вас'");
-    private static final SelenideElement searchQuery = $x("//h1[@class='searching-results__title']").as("Заголовок поискового запроса");
-    private static final SelenideElement productsFound = $x("//span[@class='searching-results__count']").as("Кол-во найденных товаров");
-    private static final SelenideElement allFilter = $x("//div[@class='dropdown-filter j-show-all-filtres']").as("Кнопка Все фильтры");
+    //fixme убери статик у всех SelenideElement и регистр переменных поправь
+    private static final SelenideElement ADD_CARD_BASKET = $x("//article[1]//p[2]/a").as("Добавление товара в корзину");
+    private static final SelenideElement PRODUCT_CARD_NAME_CATALOG = $x("//*[@class='product-card__name']").as("Получение названия товара из каталога поиска");
+    private static final SelenideElement ARTICLE_CATALOG = $x("//article[1]").as("Получение артикула товара из каталога поиска");
+    private static final SelenideElement PRICE_CARD_CATALOG = $x("//article[1]//span[@class='price__wrap']//ins").as("Получение цены товара из каталога поиска");
+    private static final SelenideElement RECOMMENDATION_FOR_YOU = $x("//a[@class='searching-results__suggest hide-mobile']").as("Кнопка 'Рекоммендации для вас'");
+    private static final SelenideElement SEARCH_QUERY = $x("//h1[@class='searching-results__title']").as("Заголовок поискового запроса");
+    private static final SelenideElement PRODUCTS_FOUND = $x("//span[@class='searching-results__count']").as("Кол-во найденных товаров");
+    private static final SelenideElement ALL_FILTER = $x("//div[@class='dropdown-filter j-show-all-filtres']").as("Кнопка Все фильтры");
 
     public CatalogPage() {
         super("Каталог поиска");
@@ -34,34 +35,33 @@ public class CatalogPage extends AbstractWbPage {
         return catalogPage;
     }
 
-    public void addToBasket() {
+    public void addFirstProductToBasket() {
         LOGGER.info("Поисковый каталог. Добавление товара в корзину");
-        addCardBasket.click();
+        ADD_CARD_BASKET.click();
     }
 
-    public int GetArticleCardSearchCatalog() {
+    public String getArticleCardSearchCatalog() {
         LOGGER.info("Получение артикула из Каталога поиска");
-        return Integer.parseInt(articleCatalog.getAttribute("data-nm-id"));
+        return ARTICLE_CATALOG.getAttribute("data-nm-id");
     }
 
+    //fixme с маленькой буквы методы, проверь все методы
     public String GetNameCardSearchCatalog() {
         LOGGER.info("Получение названия товара из Каталога поиска");
-        return productCardNameCatalog.getText().replace("/ ", "");
+        return PRODUCT_CARD_NAME_CATALOG.getText().replace("/ ", "");
     }
 
-    public int GetPriceCardSearchCatalog() {
+    public String getPriceCardSearchCatalog() {
         LOGGER.info("Получение цены товара из Каталога поиска");
-        String getPrice = priceCardCatalog.getText();
-        getPrice = getPrice.replace(" ₽", "");
-        return Integer.parseInt(getPrice);
+        return PRICE_CARD_CATALOG.getText();
     }
 
     public void waitFoPageLoad() {
-        allFilter.shouldBe(visible);
+        ALL_FILTER.shouldBe(visible);
     }
 
     public void verifyPage() {
         LOGGER.info(getPageName() + ": проверка основных элементов страницы");
-        Verify.verifyElements(visible, recommendationForYou, searchQuery, productsFound, allFilter);
+        Verify.verifyElements(visible, RECOMMENDATION_FOR_YOU, SEARCH_QUERY, PRODUCTS_FOUND, ALL_FILTER);
     }
 }

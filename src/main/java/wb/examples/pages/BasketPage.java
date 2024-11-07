@@ -1,5 +1,6 @@
 package wb.examples.pages;
 
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.Assert;
 import org.slf4j.Logger;
@@ -12,39 +13,37 @@ import static com.codeborne.selenide.Selenide.$x;
 public class BasketPage extends AbstractWbPage {
     private static final Logger LOGGER = LoggerFactory.getLogger(BasketPage.class);
 
-    private static final SelenideElement PRODUCT_CARD_NAME_BASKET = $x("//*[@class='accordion__list-item list-item j-b-basket-item'][1]//span[@class='good-info__good-name']").as("Название товара в Корзине");
-    private static final SelenideElement ARTICLE_BASKET = $x("//*[@class='accordion__list-item list-item j-b-basket-item'][1]//div[@data-nm]").as("Артикул товара в Корзине");
-    private static final SelenideElement PRICE_CARD_BASKET = $x("//*[@class='accordion__list-item list-item j-b-basket-item'][1]//div[@data-link='{formatMoneyAnim priceSumWithWltDiscount}']").as("Цена товара со скидкой в Корзине");
-    //Нужна хелпа в объяснении как вынести это в AbstractWbPage
-    private static final SelenideElement BASKET = $x("//span[@class='navbar-pc__icon navbar-pc__icon--basket']").as("Корзина в хедере");
-    private static final SelenideElement DELIVERY_METHOD = $x("//h2[@data-link='class{merge: deliveryPoint toggle='hide-mobile'}']").as("Блок 'Способ доставки'");
+    private final SelenideElement productCardNameBasket = $x("//*[@class='accordion__list-item list-item j-b-basket-item'][1]//span[@class='good-info__good-name']").as("Название товара в Корзине");
+    private final SelenideElement articleBasket = $x("//*[@class='accordion__list-item list-item j-b-basket-item'][1]//div[@data-nm]").as("Артикул товара в Корзине");
+    private final SelenideElement priceCardBasket = $x("//*[@class='accordion__list-item list-item j-b-basket-item'][1]//div[@data-link='{formatMoneyAnim priceSumWithWltDiscount}']").as("Цена товара со скидкой в Корзине");
+    private final SelenideElement deliveryMethod = $x("//h2[contains(@data-link, 'deliveryPoint')]").as("Блок 'Способ доставки'");
+
 
     public BasketPage() {
-        super("Корзина");
+        super("Страница Корзина");
     }
 
     @Override
     public void waitFoPageLoad() {
-        DELIVERY_METHOD.shouldBe(visible);
+        deliveryMethod.shouldBe(visible);
     }
 
     @Override
     public void verifyPage() {
+        super.verifyPage();//fixme сделай на всех страницах-наследниках вызов метода verifyPage у родителя, т.е. проверить сначала родитель свое, потом текущий класс свое.
         LOGGER.info(getPageName() + ": проверка основных элементов страницы");
-        Verify.verifyElements(visible, DELIVERY_METHOD);
+        Verify.verifyElements(visible, deliveryMethod);
     }
 
     public void goToBasket() {
-        BASKET.click();
+        basket.click();
     }
 
-    public void compareProducts(int artKT, String nameKT, int priceKT) {
-        LOGGER.info("Проверка того что в Корзину добавлен нужный товар");
-        int GetArticleCardBasket = Integer.parseInt(ARTICLE_BASKET.getAttribute("data-nm"));
-        String GetNameCardBasket = PRODUCT_CARD_NAME_BASKET.getText();
-        int GetPriceCardBasket = Integer.parseInt(PRICE_CARD_BASKET.getText().replace(" ₽", ""));
-        Assert.assertTrue("Сравнение артикулов", GetArticleCardBasket == artKT);
-        Assert.assertTrue("Сравнение наименований", GetNameCardBasket.equals(nameKT));
-        Assert.assertTrue("Сравнение цены со скидкой", GetPriceCardBasket == priceKT);
+    public void verifyFirstProduct(String artKT, String nameKT, String priceKT) {
+        LOGGER.info("Проверка того что в Корзину добавлен нужный товар"); //fixme логировать информацию о товаре, который будешь проверять, смотри метод toString() у классов.
+        Selenide.sleep(2000);//animation prices
+        Assert.assertEquals("Сравнение артикулов", articleBasket.getAttribute("data-nm"), artKT);
+        Assert.assertEquals("Сравнение наименований", productCardNameBasket.getText(), nameKT);
+        Assert.assertEquals("Сравнение цены со скидкой", priceCardBasket.getText(), priceKT);
     }
 }

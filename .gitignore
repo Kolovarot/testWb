@@ -2,6 +2,7 @@
 .idea/
 *.ipr
 *.iws
+*.iml
 
 # Модули и настройки IDE
 out/
@@ -21,5 +22,6 @@ build/
 
 # Прочее
 *.swp
+reports
 
 .mvn

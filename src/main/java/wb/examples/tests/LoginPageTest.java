@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import wb.examples.pages.LoginPage;
 import wb.examples.pages.MainPage;
 
-public class LoginPageTest {
+public class LoginPageTest extends TestBase {
     //private final static String LOGIN_URL = "https://www.wildberries.ru/security/login?returnUrl=https%3A%2F%2Fwww.wildberries.ru%2F";
     private final static String PHONE_NUMBER = "72402202053";
     private final static String CODE = "605910";
