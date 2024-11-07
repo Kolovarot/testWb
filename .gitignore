@@ -1,6 +1,8 @@
 # IntelliJ IDEA
 .idea/
 *.iml
+*.ipr
+*.iws
 
 # Модули и настройки IDE
 out/

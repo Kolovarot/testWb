@@ -27,7 +27,7 @@ abstract public class AbstractWbPage {
         return null;
     }
 
-    public void closeCookies(){
+    public void closeCookies() {
         buttonCookies.click();
     }
 
@@ -36,9 +36,10 @@ abstract public class AbstractWbPage {
         waitFoPageLoad();
     }
 
-    public void verifyAuthUser(){
+    public void verifyAuthUser() {
         profileElement.shouldBe(visible);
     }
+
     abstract public void verifyPage();
 
     public void goToBasket() {

@@ -10,7 +10,7 @@ public class LoginPageTest {
     private final static String CODE = "605910";
 
     @Test
-    public void authorization(){
+    public void authorization() {
         LoginPage loginPage = LoginPage.openPage();
         loginPage.inputNumber(PHONE_NUMBER);
         loginPage.clickCodeButton();

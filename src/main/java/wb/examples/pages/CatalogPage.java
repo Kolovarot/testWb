@@ -9,7 +9,7 @@ import wb.examples.util.Verify;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$x;
 
-public class CatalogPage extends AbstractWbPage{
+public class CatalogPage extends AbstractWbPage {
     private static final Logger LOGGER = LoggerFactory.getLogger(CatalogPage.class);
 
     private static final SelenideElement addCardBasket = $x("//article[1]//p[2]/a").as("Добавление товара в корзину");
@@ -25,7 +25,7 @@ public class CatalogPage extends AbstractWbPage{
         super("Каталог поиска");
     }
 
-    public static CatalogPage openPage(){
+    public static CatalogPage openPage() {
         Selenide.open("https://www.wildberries.ru/catalog/0/search.aspx?search=mask");
         LOGGER.info("Открыть каталог поиска с безразмерным товаром");
         CatalogPage catalogPage = new CatalogPage();
@@ -34,7 +34,7 @@ public class CatalogPage extends AbstractWbPage{
         return catalogPage;
     }
 
-    public void addToBasket(){
+    public void addToBasket() {
         LOGGER.info("Поисковый каталог. Добавление товара в корзину");
         addCardBasket.click();
     }
@@ -60,8 +60,8 @@ public class CatalogPage extends AbstractWbPage{
         allFilter.shouldBe(visible);
     }
 
-    public void verifyPage(){
+    public void verifyPage() {
         LOGGER.info(getPageName() + ": проверка основных элементов страницы");
-        Verify.verifyElements(visible,recommendationForYou,searchQuery,productsFound,allFilter);
+        Verify.verifyElements(visible, recommendationForYou, searchQuery, productsFound, allFilter);
     }
 }

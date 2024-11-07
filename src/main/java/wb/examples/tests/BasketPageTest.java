@@ -13,7 +13,7 @@ public class BasketPageTest {
         catalogPage.verifyPage();
         String nameKT = catalogPage.GetNameCardSearchCatalog();
         int artKT = catalogPage.GetArticleCardSearchCatalog();
-        int priceKT =catalogPage.GetPriceCardSearchCatalog();
+        int priceKT = catalogPage.GetPriceCardSearchCatalog();
         catalogPage.addToBasket();
         BasketPage basketPage = new BasketPage();
         basketPage.goToBasket();
